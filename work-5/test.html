@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>New Document </title>
+    <script src=";$amp;>amp;$lt"></script>
+    <script type="text/javascript">
+        window.onload = function()
+        { var arr = $('#divs').find('div').toArray();
+         var temp;
+            temp = arr[0]; arr[0] = arr[2]; arr[2] = temp;
+            $('#divs').html(arr)
+        }
+    </script>
+</HEAD>
+<BODY>
+<div id="divs">
+    <div>111111</div>
+    <div>222222</div>
+    <div>333333</div>
+</div>
+</BODY>
+</HTML>

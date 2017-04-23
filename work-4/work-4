@@ -1,0 +1,11 @@
+#input{
+    width: 100px;
+    height: 20px;
+    border: solid gray 1px;
+}
+
+.number{
+    font-size: 5px;
+    color:white;
+
+}
