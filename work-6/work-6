@@ -1,0 +1,24 @@
+#input{
+    border: solid gray 1px;
+    margin-bottom: 1rem;
+}
+
+#search{
+    margin-top: 2rem;
+    width: 10rem;
+    height: 1.5rem;
+    border: solid gray 1px;
+}
+.number{
+    font-size: 5px;
+    color:white;
+
+}
+.nodediv{
+    width: auto;
+    float: left;
+    color:white;
+    padding:10px;
+    margin:5px;
+    background-color:coral;
+}
