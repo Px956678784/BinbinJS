@@ -1,0 +1,33 @@
+div{
+    border: solid 0.1rem gray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.div1{
+    margin-left: 20%;
+    width: 40rem;
+    height: 20rem;
+}
+
+.div2{
+    width: 15rem;
+    height: 10rem;
+}
+
+.div3{
+    width: 6rem;
+    height: 5rem;
+}
+
+.div4{
+    width: 2rem;
+    height: 2rem;
+}
+
+#buttons{
+    border: none;
+}

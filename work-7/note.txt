@@ -1,0 +1,3 @@
+getElementsByClassName返回的是一个数组，要指定下标的，跟getElementsByTagName一样
+document.getElementsByClassName(classname)[0].style.backgroundColor="red"
+如果需要reset，放在最后却有可能前面的函数还没有执行完就reset了因此要加flag
